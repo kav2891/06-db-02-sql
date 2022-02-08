@@ -33,7 +33,7 @@ CONTAINER ID   IMAGE         COMMAND                  CREATED         STATUS    
 cf85f110ab63   postgres:12   "docker-entrypoint.s…"   6 seconds ago   Up 5 seconds   0.0.0.0:5432->5432/tcp, :::5432->5432/tcp   pg-docker
 ```
 
-
+![image info](./pg1.png)
 
 ## Задача 2
 
@@ -96,11 +96,13 @@ GRANT DELETE ON TABLE public.orders TO "test-simple-user";
 ```
 - Скриншоты 
 - Список БД:
- #screen
+
+![image info](./pg2.png)
 
 - Список Таблиц и привелегий:
-###screen
 
+![image info](./pg4.png)
+![image info](./pg5.png)
 
 
 ## Задача 3
@@ -140,7 +142,7 @@ insert into clients VALUES (1, 'Иванов Иван Иванович', 'USA'),
 select count (*) from orders;
 select count (*) from clients;
 ```
-###screen
+![image info](./pg6.png)
 
 ## Задача 4
 

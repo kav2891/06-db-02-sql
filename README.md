@@ -173,7 +173,7 @@ select * from clients as c where  exists (select id from orders as o where c.boo
 Запрос получения Вариант2 - проверяет на непустые значения у клиентов по заказам:
 select * from clients where booking is not null
 ```
-###screen
+![image info](./pg9.png)
 
 ## Задача 5
 
@@ -184,7 +184,7 @@ select * from clients where booking is not null
 
 ### Ответ:
 
-###screen
+![image info](./pg8.png)
 
 ```
 Вариант 1
